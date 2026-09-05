@@ -22,7 +22,7 @@ const testimonials = [
     role: 'Coordenadora Nacional',
     company: 'Ministério da Educação',
     text: 'Trabalhar com o Leo foi uma das melhores decisões que tomámos. O sistema de inscrição da Semana da Língua Portuguesa foi um sucesso e a consistência visual da aplicação é impecável. Recomendo sem reservas.',
-    avatar: 'CN-IILP',
+    avatar: 'CN',
     color: '#10b981',
     stars: 5,
     category: 'Parceiro'
