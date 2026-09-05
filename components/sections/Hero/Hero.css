@@ -1,0 +1,102 @@
+/* ============================================================
+   HERO SECTION — Photo Layout Extension
+   ============================================================ */
+
+.hero-image-wrap {
+  position: absolute;
+  right: 3%;
+  bottom: 0;
+  width: clamp(320px, 34vw, 480px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  pointer-events: none;
+  z-index: 5;
+}
+
+.hero-image-glow {
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 95%;
+  height: 260px;
+  background: radial-gradient(ellipse, rgba(32, 121, 245, 0.28) 0%, transparent 70%);
+  border-radius: 50%;
+  filter: blur(36px);
+  z-index: 0;
+}
+
+.hero-image-container {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  border-radius: 24px 24px 0 0;
+  overflow: visible;
+  mask-image: linear-gradient(to bottom, black 88%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, black 88%, transparent 100%);
+}
+
+.hero-photo {
+  width: 100% !important;
+  height: auto !important;
+  max-height: 640px;
+  object-fit: contain;
+  display: block;
+  filter: drop-shadow(0 24px 48px rgba(0, 0, 0, 0.28));
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.hero-image-wrap:hover .hero-photo {
+  transform: scale(1.02) translateY(-4px);
+}
+
+.hero-image-badge {
+  position: absolute;
+  top: 25%;
+  left: 280;
+  background: var(--card);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 6px 14px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--foreground);
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  pointer-events: auto;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  z-index: 10;
+}
+
+[data-theme="dark"] .hero-image-badge {
+  background: var(--card);
+  border-color: rgba(255, 255, 255, 0.1);
+  color: #f1f5f9;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+/* Adjust hero layout when image is present */
+.hero-center-content {
+  position: relative;
+  z-index: 6;
+  max-width: 580px;
+}
+
+@media (max-width: 1100px) {
+  .hero-image-wrap {
+    width: clamp(280px, 30vw, 380px);
+    right: 2%;
+  }
+}
+
+@media (max-width: 900px) {
+  .hero-image-wrap {
+    display: none;
+  }
+  .hero-center-content {
+    max-width: 100%;
+  }
+}
