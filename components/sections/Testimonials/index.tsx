@@ -11,7 +11,7 @@ const testimonials = [
     role: 'CEO & Fundadora',
     company: 'Ale Cosmeticos',
     text: 'O Leo é incrivelmente talentoso. O seu design é moderno e intuitivo e a sua capacidade técnica é impressionante. Recomendo sem reservas.',
-    avatar: 'AF',
+    avatar: 'AL',
     color: '#2079f5',
     stars: 5,
     category: 'Cliente'
@@ -22,7 +22,7 @@ const testimonials = [
     role: 'Coordenadora Nacional',
     company: 'Ministério da Educação',
     text: 'Trabalhar com o Leo foi uma das melhores decisões que tomámos. O sistema de inscrição da Semana da Língua Portuguesa foi um sucesso e a consistência visual da aplicação é impecável. Recomendo sem reservas.',
-    avatar: 'RS',
+    avatar: 'CN-IILP',
     color: '#10b981',
     stars: 5,
     category: 'Parceiro'
@@ -44,7 +44,7 @@ const testimonials = [
     role: 'Seguidora',
     company: 'Facebook',
     text: 'Acompanho o Leo desde o inicio. Os seus conteúdos são sempre muito ricos e bem estruturados. É um profissional que admiro muito!',
-    avatar: 'MC',
+    avatar: 'BFS',
     color: '#f59e0b',
     stars: 5,
     category: 'Colaborador'
@@ -55,7 +55,7 @@ const testimonials = [
     role: 'CEO',
     company: 'Kiss Cake - Comércio e Serviços',
     text: 'O Leo redesenhou a nossa loja e o resultado foi impressionante. As vendas online aumentaram 120% no primeiro mês. O processo foi organizado, transparente e o resultado superou todas as expectativas.',
-    avatar: 'IR',
+    avatar: 'AN',
     color: '#ec4899',
     stars: 5,
     category: 'Cliente'
