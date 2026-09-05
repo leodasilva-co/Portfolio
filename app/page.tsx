@@ -14,7 +14,7 @@ import { FooterSection } from '@/components/sections/Footer'
 const process = [
   ['01', 'Entender', 'A pergunta certa vem antes da solução. Imersão nos objectivos do negócio e necessidades reais dos utilizadores.'],
   ['02', 'Estruturar', 'Transformo complexidade em direção partilhada através de arquitetura de informação, fluxos e design tokens.'],
-  ['03', 'Construir', 'Prototipo, desenho e desenvolvo diretamente em código de produção com testes e validação contínua.'],
+  ['03', 'Construir', 'Prototipo, desenho e desenvolvo directamente em código de produção com testes e validação contínua.'],
   ['04', 'Aprender', 'Medimos o que realmente importa (Core Web Vitals, conversão, NPS) e iteramos com velocidade e intenção.'],
 ]
 
@@ -89,7 +89,7 @@ export default function Page() {
             <h2>O próximo capítulo<br /><em>já começou.</em></h2>
           </div>
           <p className="section-note">
-            Projetos em diferentes estágios de exploração. O processo também faz parte do resultado.
+            Projectos em diferentes estágios de exploração. O processo também faz parte do resultado.
           </p>
         </div>
         <div className="now-list">
@@ -114,7 +114,7 @@ export default function Page() {
       {/* Manifesto Callout Banner */}
       <section className="manifesto">
         <div className="section-wrap manifesto-inner">
-          <p className="eyebrow">04 — De problema a projeto</p>
+          <p className="eyebrow">04 — De problema a Projecto</p>
           <h2>
             Se há algo importante<br />
             para <em>resolver,</em> vamos falar.
@@ -154,7 +154,7 @@ export default function Page() {
           </div>
           <div className="offers-grid">
             {[
-              ['START', 'Uma direção clara para começar.', 'Para startups e projetos que precisam de transformar uma ideia em MVP rápido e funcional.'],
+              ['START', 'Uma direção clara para começar.', 'Para startups e Projectos que precisam de transformar uma ideia em MVP rápido e funcional.'],
               ['GROW', 'Um sistema que acompanha o crescimento.', 'Para equipas a evoluir produto, design system, escala e performance frontend.'],
               ['TRANSFORM', 'Mudança com intenção e escala.', 'Para organizações prontas para redesenhar a arquitetura técnica e experiência dos seus produtos.'],
             ].map(([name, title, text]) => (

@@ -275,7 +275,7 @@ export function WorkSection() {
                   />
                 </div>
                 <div className="work-card-overlay">
-                  <span className="work-card-open">Ver projeto <ArrowUpRight size={14} /></span>
+                  <span className="work-card-open">Ver Projecto <ArrowUpRight size={14} /></span>
                 </div>
               </div>
               <div className="work-card-info">
@@ -306,7 +306,7 @@ export function WorkSection() {
             aria-labelledby="work-modal-title"
             onClick={e => e.stopPropagation()}
           >
-            <button className="modal-close" aria-label="Fechar projeto" onClick={closeProject}>
+            <button className="modal-close" aria-label="Fechar Projecto" onClick={closeProject}>
               <X size={20} />
             </button>
 
@@ -412,7 +412,7 @@ export function WorkSection() {
               )}
 
               <a className="hero-btn-primary" href="#contacto" onClick={closeProject}>
-                Falar sobre este projeto <ArrowUpRight size={16} />
+                Falar sobre este Projecto <ArrowUpRight size={16} />
               </a>
             </div>
           </article>

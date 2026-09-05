@@ -56,7 +56,7 @@ export function AboutSection() {
             </div>
             <div>
               <h3>Leo da Silva</h3>
-              <p className="about-profile-role">Product Designer & Senior Front-end Engineer</p>
+              <p className="about-profile-role">Product Designer & Front-end Engineer</p>
             </div>
           </div>
 
@@ -159,7 +159,7 @@ export function AboutSection() {
           <span className="about-card-tag">04 / Stack & Especialidades</span>
           <div className="about-stack-groups">
             <div className="about-stack-group">
-              <h4><Sparkles size={16} style={{ color: '#2079f5' }} /> Design de Produto & UX</h4>
+              <h4><Sparkles size={16} style={{ color: '#f9c970' }} /> Design de Produto & UX</h4>
               <p>Figma, Prototipagem Avançada, UX Research, Arquitetura de Informação, Design Tokens & Design Systems.</p>
             </div>
             <div className="about-stack-group">
