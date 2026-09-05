@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { ArrowUpRight, X, ExternalLink, Palette, Code2, TrendingUp, Share2, ChevronLeft, ChevronRight } from 'lucide-react'
+import { ArrowUpRight, X, ExternalLink, Palette, Code2, TrendingUp, Share2, ChevronLeft, ChevronRight, Star } from 'lucide-react'
 import { GitHubIcon } from '@/components/shared/SocialIcons'
 import './Work.css'
 
@@ -148,6 +148,62 @@ const workProjects: WorkProject[] = [
     year: '2024',
     color: '#0a66c2',
   },
+  // Premium
+  {
+    id: 10,
+    title: 'Gestão Instagram — Marca de Lifestyle',
+    type: 'Social Media Management',
+    description: 'De 2K para 45K seguidores em 8 meses.',
+    fullDescription: 'Gestão completa da presença no Instagram para marca de lifestyle portuguesa. Estratégia de conteúdo, copywriting, design dos posts, stories, reels e interação com a comunidade.',
+    category: 'premium',
+    tags: ['Instagram', 'Content Strategy', 'Reels', 'Copywriting'],
+    images: ['/images/hero-design-01.png', '/images/hero-design-02.png'],
+    results: ['2K → 45K seguidores', 'Engagement 8.4%', 'Reach +920%'],
+    year: '2025',
+    color: '#ec4899',
+  },
+  {
+    id: 11,
+    title: 'LinkedIn B2B — SaaS Company',
+    type: 'LinkedIn Strategy',
+    description: 'Leads B2B qualificados via conteúdo orgânico.',
+    fullDescription: 'Estratégia de conteúdo e gestão de presença no LinkedIn para empresa SaaS B2B. Foco em thought leadership, artigos técnicos e geração de leads qualificados.',
+    category: 'premium',
+    tags: ['LinkedIn', 'B2B', 'Thought Leadership', 'Lead Gen'],
+    images: ['/images/hero-tech-01.png', '/images/hero-finance-01.png'],
+    results: ['120 leads/mês', 'Impressões +340%', 'Pipeline €180K'],
+    year: '2024',
+    color: '#0a66c2',
+  },
+    {
+    id: 12,
+    title: 'Atlas Ops — Plataforma Interna',
+    type: 'Front-end Engineering',
+    description: 'Operações mais rápidas, visíveis e confiáveis.',
+    fullDescription: 'Desenvolvi a plataforma de gestão interna Atlas Ops usando Next.js 16, React 19, TypeScript e um design system personalizado. Integração com APIs REST e GraphQL para dados em tempo real.',
+    category: 'premium',
+    tags: ['Next.js', 'React 19', 'TypeScript', 'GraphQL'],
+    images: ['/images/hero-tech-01.png', '/images/hero-tech-02.png', '/images/hero-finance-01.png'],
+    results: ['Performance 99.8%', 'LCP < 0.4s', 'Deploy na Vercel'],
+    link: 'https://github.com',
+    github: 'https://github.com',
+    year: '2024',
+    color: '#6366f1',
+  },
+  {
+    id: 13,
+    title: 'Portfólio Leo da Silva',
+    type: 'Next.js & Design',
+    description: 'Um sistema vivo, sempre em evolução.',
+    fullDescription: 'Este portfólio foi construído com Next.js 16, React 19, TypeScript, CSS vanilla e design system próprio. Foco em performance, acessibilidade e dark mode.',
+    category: 'premium',
+    tags: ['Next.js', 'TypeScript', 'CSS', 'Dark Mode'],
+    images: ['/images/hero-tech-02.png', '/images/hero-tech-01.png'],
+    results: ['Lighthouse 100%', 'A11y 100%', 'Deploy Vercel'],
+    github: 'https://github.com',
+    year: '2025',
+    color: '#0ea5e9',
+  },
 ]
 
 const categories = [
@@ -156,6 +212,7 @@ const categories = [
   { id: 'programacao' as const, label: 'Programação', icon: <Code2 size={16} /> },
   { id: 'marketing' as const, label: 'Marketing Digital', icon: <TrendingUp size={16} /> },
   { id: 'redes' as const, label: 'Redes Sociais', icon: <Share2 size={16} /> },
+  { id: 'premium' as const, label: 'Premium', icon: <Star size={16} /> },
 ]
 
 export function WorkSection() {

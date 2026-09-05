@@ -39,21 +39,21 @@
 [data-theme="dark"] .work-tab-btn:hover {
   background: rgba(32, 121, 245, 0.08);
   border-color: var(--primary);
-  color: #60a5fa;
+  color: #f9c970;
 }
 
 .work-tab-btn.active {
   background: var(--foreground);
   border-color: var(--foreground);
   color: var(--background);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 12px rgba(117, 3, 3, 0.15);
 }
 
 [data-theme="dark"] .work-tab-btn.active {
   background: var(--primary);
   border-color: var(--primary);
   color: #ffffff;
-  box-shadow: 0 4px 16px rgba(32, 121, 245, 0.35);
+  box-shadow: 0 4px 16px rgba(249, 112, 112, 0.35);
 }
 
 /* Projects Grid */

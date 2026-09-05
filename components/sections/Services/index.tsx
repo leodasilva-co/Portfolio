@@ -82,7 +82,7 @@ export function ServicesSection() {
               <p className="service-tagline">{serviceDetails[index].kicker}</p>
             </div>
             <div className="service-action-badge">
-              <span className="service-action-badge">Saber mais</span>
+              <span>Saber mais</span>
               <ArrowUpRight size={18} />
             </div>
           </button>

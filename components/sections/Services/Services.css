@@ -54,7 +54,7 @@
 [data-theme="dark"] .service-row:hover {
   background: rgba(255, 255, 255, 0.065);
   border-color: var(--primary);
-  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.5), 0 0 25px rgba(61, 142, 248, 0.2);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.5), 0 0 25px rgba(249, 201, 112, 0.2);
   transform: translateY(-3px) scale(1.006);
 }
 
@@ -150,8 +150,8 @@
 }
 
 [data-theme="dark"] .service-action-badge {
-  background: rgba(61, 142, 248, 0.14);
-  color: #60a5fa;
+  background: rgba(249, 201, 112, 0.14);
+  color: #f9c970;
 }
 
 [data-theme="dark"] .service-row:hover .service-action-badge {
@@ -169,7 +169,7 @@
 [data-theme="dark"] .service-detail-visual {
   background: linear-gradient(135deg, #1e2238 0%, #121422 100%);
   border: 1px solid rgba(255, 255, 255, 0.08);
-  color: #60a5fa;
+  color: #f9c970;
 }
 
 .point-check-icon {

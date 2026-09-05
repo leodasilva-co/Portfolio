@@ -35,7 +35,7 @@
   background: var(--primary);
   border-color: var(--primary);
   color: #fff;
-  box-shadow: 0 4px 12px rgba(32, 121, 245, 0.25);
+  box-shadow: 0 4px 12px rgba(249, 201, 112, 0.25);
 }
 
 .testimonials-grid {

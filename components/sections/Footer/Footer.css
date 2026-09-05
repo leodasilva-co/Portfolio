@@ -103,7 +103,7 @@
 
 [data-theme="dark"] .footer-links a:hover,
 [data-theme="dark"] .footer-contact a:hover {
-  color: #60a5fa;
+  color: #f9c970;
   transform: translateX(4px);
 }
 
@@ -132,7 +132,7 @@
 
 [data-theme="dark"] .social-icon-link:hover {
   box-shadow: 0 8px 22px rgba(0, 0, 0, 0.5);
-  filter: drop-shadow(0 4px 14px rgba(32, 121, 245, 0.35));
+  filter: drop-shadow(0 4px 14px rgba(249, 201, 112, 0.35));
 }
 
 .footer small {

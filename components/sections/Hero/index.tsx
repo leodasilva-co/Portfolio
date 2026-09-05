@@ -42,7 +42,7 @@ export function HeroSection() {
           </div>
 
           <div className="hero-trust-bar">
-            <span><Sparkles size={13} style={{ color: '#2079f5' }} /> Design de Produto</span>
+            <span><Sparkles size={13} style={{ color: '#f9c970' }} /> Design de Produto</span>
             <span><Layers size={13} style={{ color: '#6366f1' }} /> Design Systems</span>
             <span><Code2 size={13} style={{ color: '#10b981' }} /> Engenharia Front-end</span>
           </div>

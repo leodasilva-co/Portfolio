@@ -22,7 +22,7 @@
   --foreground: #0f172a;
   --card: #ffffff;
   --card-foreground: #0f172a;
-  --primary: #2079f5;
+  --primary: #f9c870;
   --primary-foreground: #ffffff;
   --muted-foreground: #64748b;
   --border: #e6ebf0;
@@ -37,7 +37,7 @@
   --foreground: #f1f5f9;
   --card: #111625;
   --card-foreground: #f1f5f9;
-  --primary: #2079f5;
+  --primary: #d0932e;
   --primary-foreground: #ffffff;
   --muted-foreground: #94a3b8;
   --border: rgba(255, 255, 255, 0.08);
@@ -252,7 +252,7 @@ em {
 }
 
 .nav-cta:hover {
-  border-color: rgba(32, 121, 245, 0.4);
+  border-color: rgba(249, 201, 112, 1);
   box-shadow: 0 4px 14px rgba(32, 121, 245, 0.12);
   color: var(--primary) !important;
   transform: translateY(-1px);
@@ -261,7 +261,7 @@ em {
 [data-theme="dark"] .nav-cta:hover {
   background: rgba(61, 142, 248, 0.15);
   border-color: var(--primary);
-  box-shadow: 0 4px 16px rgba(61, 142, 248, 0.25);
+  box-shadow: 0 4px 16px rgba(249, 201, 112, 0.25);
 }
 
 .menu-toggle {
@@ -371,7 +371,7 @@ em {
 }
 
 .hero-app-icon:hover {
-  box-shadow: 0 16px 32px -4px rgba(32, 121, 245, 0.35);
+  box-shadow: 0 16px 32px -4px rgba(249, 201, 112, 0.35);
   transform: translateY(-2px) scale(1.04);
 }
 
@@ -437,7 +437,7 @@ em {
 }
 
 .hero-center-content h1 .hero-highlight {
-  background: linear-gradient(135deg, #1d4ed8 0%, #2563eb 50%, #38bdf8 100%);
+  background: linear-gradient(135deg, #f9c970 0%, #f9c970 50%, #f9c970 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: block;
@@ -467,7 +467,7 @@ em {
   background: var(--primary);
   border: 1px solid transparent;
   border-radius: 999px;
-  box-shadow: 0 10px 25px -5px rgba(32, 121, 245, 0.38), 0 2px 6px rgba(32, 121, 245, 0.18);
+  box-shadow: 0 10px 25px -5px rgba(249, 201, 112, 0.38), 0 2px 6px rgba(249, 201, 112, 0.18);
   color: #ffffff !important;
   display: inline-flex;
   font-family: var(--font-mono), monospace;
@@ -481,8 +481,8 @@ em {
 }
 
 .hero-btn-primary:hover {
-  background: #116be8;
-  box-shadow: 0 16px 32px -5px rgba(32, 121, 245, 0.48);
+  background: #f9c970;
+  box-shadow: 0 16px 32px -5px rgba(249, 201, 112, 0.48);
   transform: translateY(-2px);
 }
 
@@ -556,7 +556,7 @@ em {
 }
 
 .hero-floating-card:hover {
-  border-color: rgba(32, 121, 245, 0.3);
+  border-color: rgba(249, 201, 112, 0.3);
   box-shadow: 0 22px 48px -10px rgba(15, 23, 42, 0.13), 0 4px 12px rgba(0, 0, 0, 0.03);
   z-index: 12 !important;
 }
@@ -1385,7 +1385,7 @@ em {
 }
 
 .dot-3 {
-  background: #6366f1;
+  background: #f9c970;
 }
 
 .now-row h3 {
@@ -1429,7 +1429,7 @@ em {
 }
 
 .manifesto em {
-  color: #38bdf8;
+  color: #f9c970;
 }
 
 .button-light {
@@ -1551,7 +1551,7 @@ em {
 }
 
 .about-cv-header-btn:hover {
-  border-color: rgba(32, 121, 245, 0.4);
+  border-color: rgba(249, 201, 112, 0.35);
   box-shadow: 0 6px 20px rgba(32, 121, 245, 0.12);
   color: var(--primary);
   transform: translateY(-2px);
@@ -2466,13 +2466,13 @@ em {
 
 [data-theme="dark"] .hero-floating-card:hover {
   border-color: var(--primary);
-  box-shadow: 0 20px 45px -10px rgba(0, 0, 0, 0.6), 0 0 20px rgba(32, 121, 245, 0.2);
+  box-shadow: 0 20px 45px -10px rgba(0, 0, 0, 0.6), 0 0 20px rgba(249, 201, 112, 0.25);
 }
 
 [data-theme="dark"] .float-card-postit {
-  background: rgba(32, 121, 245, 0.08) !important;
-  border-color: rgba(32, 121, 245, 0.25) !important;
-  color: #93c5fd !important;
+  background: rgba(249, 201, 112, 0.08) !important;
+  border-color: rgba(249, 201, 112, 0.25) !important;
+  color: #f9c970 !important;
 }
 
 [data-theme="dark"] .postit-content span,
@@ -2481,8 +2481,8 @@ em {
 }
 
 [data-theme="dark"] .postit-tag {
-  background: rgba(32, 121, 245, 0.2);
-  color: #60a5fa;
+  background: rgba(249, 201, 112, 0.2);
+  color: #f9c970;
 }
 
 [data-theme="dark"] .hero-status-pill {
@@ -2493,8 +2493,8 @@ em {
 
 [data-theme="dark"] .ui-sync-icon {
   background: rgba(32, 121, 245, 0.15);
-  border-color: rgba(32, 121, 245, 0.3);
-  color: #60a5fa;
+  border-color: rgba(249, 201, 112, 0.25);
+  color: #f9c970;
 }
 
 [data-theme="dark"] .ui-sync-text h4 {
@@ -2555,8 +2555,8 @@ em {
 }
 
 [data-theme="dark"] .dash-metric-badge {
-  background: rgba(32, 121, 245, 0.15);
-  color: #60a5fa;
+  background: rgba(249, 201, 112, 0.2);
+  color: #f9c970;
 }
 
 [data-theme="dark"] .dash-metric-desc {
@@ -2572,9 +2572,9 @@ em {
 }
 
 [data-theme="dark"] .integrations-pill-tag {
-  background: rgba(32, 121, 245, 0.18);
-  border-color: rgba(32, 121, 245, 0.3);
-  color: #60a5fa;
+  background: rgba(249, 201, 112, 0.2);
+  border-color: rgba(249, 201, 112, 0.3);
+  color: #f9c970;
 }
 
 [data-theme="dark"] .integrations-title {
@@ -2653,14 +2653,14 @@ em {
 [data-theme="dark"] .work-tab-btn:hover {
   background: rgba(32, 121, 245, 0.1);
   border-color: var(--primary);
-  color: #60a5fa;
+  color: #f9c970;
 }
 
 [data-theme="dark"] .work-tab-btn.active {
   background: var(--primary) !important;
   border-color: var(--primary) !important;
   color: #ffffff !important;
-  box-shadow: 0 4px 16px rgba(32, 121, 245, 0.35) !important;
+  box-shadow: 0 4px 16px rgba(249, 201, 112, 0.35) !important;
 }
 
 [data-theme="dark"] .work-project-card {
@@ -2717,8 +2717,8 @@ em {
 }
 
 [data-theme="dark"] .button-light:hover {
-  background: #1967d2;
-  box-shadow: 0 8px 24px rgba(32, 121, 245, 0.4);
+  background: #f9c970;
+  box-shadow: 0 8px 24px rgba(249, 201, 112, 0.4);
 }
 
 /* Process */

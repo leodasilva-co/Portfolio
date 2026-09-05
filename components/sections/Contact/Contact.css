@@ -251,7 +251,7 @@
 .contact-field textarea:focus,
 .contact-field select:focus {
   border-color: var(--primary);
-  box-shadow: 0 0 0 3px rgba(32, 121, 245, 0.15);
+  box-shadow: 0 0 0 3px rgba(249, 201, 112, 0.15);
   background: rgba(32, 121, 245, 0.02);
 }
 
@@ -259,7 +259,7 @@
 [data-theme="dark"] .contact-field textarea:focus,
 [data-theme="dark"] .contact-field select:focus {
   border-color: var(--primary);
-  box-shadow: 0 0 0 3px rgba(32, 121, 245, 0.25);
+  box-shadow: 0 0 0 3px rgba(249, 201, 112, 0.25);
   background: rgba(32, 121, 245, 0.05);
 }
 
@@ -389,14 +389,14 @@
   font-family: var(--font-mono), monospace;
   cursor: pointer;
   transition: all 0.22s ease;
-  box-shadow: 0 6px 20px rgba(32, 121, 245, 0.35);
+  box-shadow: 0 6px 20px rgba(249, 201, 112, 0.35);
   white-space: nowrap;
 }
 
 .contact-submit-btn:hover:not(:disabled) {
-  background: #1967d2;
+  background: #f9c970;
   transform: translateY(-2px);
-  box-shadow: 0 10px 28px rgba(32, 121, 245, 0.45);
+  box-shadow: 0 10px 28px rgba(249, 201, 112, 0.45);
 }
 
 .contact-submit-btn:disabled {

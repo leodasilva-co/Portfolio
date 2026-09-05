@@ -21,7 +21,7 @@
   transform: translateX(-50%);
   width: 95%;
   height: 260px;
-  background: radial-gradient(ellipse, rgba(32, 121, 245, 0.28) 0%, transparent 70%);
+  background: radial-gradient(ellipse, rgba(249, 201, 112, 0.28) 0%, transparent 70%);
   border-radius: 50%;
   filter: blur(36px);
   z-index: 0;
