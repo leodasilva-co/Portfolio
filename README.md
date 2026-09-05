@@ -127,8 +127,8 @@ npm run start
 - **Email:** [geral.leodasilva@gmail.com](mailto:geral.leodasilva@gmail.com)
 - **Telefone:** [+244 952 789 321](tel:+244952789321)
 - **Localização:** Luanda, Angola · Disponível globalmente (Remoto)
-- **LinkedIn:** [Leo da Silva](https://linkedin.com)
-- **GitHub:** [Leo da Silva](https://github.com)
+- **LinkedIn:** [Leo da Silva](https://www.linkedin.com/in/leodasilva-co/)
+- **GitHub:** [Leo da Silva](https://github.com/leodasilva-co)
 
 ---
 
