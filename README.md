@@ -16,7 +16,7 @@
 
 ---
 
-## 📌 Sobre o Projeto
+## 📌 Sobre o Projecto
 
 Este é o website e portfólio profissional de **Leo da Silva**, Product Designer e Engenheiro Front-end. 
 
@@ -30,7 +30,7 @@ Construído com foco em **desempenho extremo (Core Web Vitals)**, **design visua
   - Paleta refinada no modo escuro baseada exclusivamente em tons de **cinza escuro profundo** (`#090d16` / `#111625`) e **azul elétrico** (`#2079f5`), com excelente contraste e legibilidade.
   - Alternância de tema instantânea persistida em `localStorage`.
 
-- 🎯 **Galeria Interativa de Projetos (Work Section):**
+- 🎯 **Galeria Interativa de Projectos (Work Section):**
   - Filtro dinâmico por categorias (*Design de Produto, Programação, Marketing Digital, Redes Sociais*).
   - Modal imersivo com galeria de imagens, métricas de impacto, links diretos e tags de tecnologias.
 
@@ -63,7 +63,7 @@ Construído com foco em **desempenho extremo (Core Web Vitals)**, **design visua
 
 ---
 
-## 📂 Estrutura do Projeto
+## 📂 Estrutura do Projecto
 
 ```bash
 leo-da-silva/
@@ -75,7 +75,7 @@ leo-da-silva/
 │   ├── sections/           # Secções modulares do portfólio
 │   │   ├── Hero/           # Secção de abertura com cards flutuantes
 │   │   ├── Services/       # Serviços prestados e detalhe dos métodos
-│   │   ├── Work/           # Galeria de projetos com filtro e modal
+│   │   ├── Work/           # Galeria de projectos com filtro e modal
 │   │   ├── About/          # Bento grid sobre carreira, stack e CV
 │   │   ├── Testimonials/   # Testemunhos e avaliações de clientes
 │   │   ├── Contact/        # Formulário integrado ao EmailJS e canais diretos
@@ -83,14 +83,14 @@ leo-da-silva/
 │   ├── shared/             # Componentes partilhados (DarkModeToggle, Icons)
 │   └── ui/                 # Primitivas de interface reutilizáveis
 ├── public/                 # Recursos estáticos (imagens, ícones e CV em PDF)
-├── package.json            # Dependências e scripts do projeto
+├── package.json            # Dependências e scripts do projecto
 ├── tsconfig.json           # Configuração TypeScript
 └── next.config.mjs         # Configurações do Next.js
 ```
 
 ---
 
-## 🚀 Como Executar o Projeto Localmente
+## 🚀 Como Executar o Projecto Localmente
 
 ### 1. Clonar o Repositório
 ```bash
